@@ -58,7 +58,7 @@
                 AND DISCOUNT_RATE = 0
             </if>
             <if test="option == 'salesStore' and value == '아울렛'">
-                AND DISCOUNT_RATE > 1
+                AND DISCOUNT_RATE >= 1
             </if>
             <if test="option == 'newProduct'">
                 AND RELEASE_DATE
