@@ -3,9 +3,11 @@
 <configuration>
     <properties resource="config/connection-info.properties"/>
 
+    <!-- typeAliases 설정 -->
     <typeAliases>
         <typeAlias type="com.common.SearchCondition" alias="SearchCondition"/>
         <typeAlias type="com.management.product.model.dto.ProductDTO" alias="ProductDTO"/>
+        <typeAlias type="com.management.category.model.dto.CategoryDTO" alias="CategoryDTO"/>
     </typeAliases>
 
     <environments default="dev">
@@ -21,6 +23,6 @@
     </environments>
     <mappers>
         <package name="com.management.product.model.dao"/>
-        <!--<package name="com.management.category.model.dao"/>-->
+        <package name="com.management.category.model.dao"/>
     </mappers>
 </configuration>

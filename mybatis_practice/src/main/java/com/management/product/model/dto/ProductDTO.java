@@ -2,7 +2,7 @@ package com.management.product.model.dto;
 
 public class ProductDTO {
 
-    // * 모든 필드는 String 타입으로 작성
+    // * 모든 필드는 String 타입
     // 'PRODUCT_INFO' 테이블과 매핑
     private String productCode;
     private String productName;
